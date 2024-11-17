@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/play_phone/play_phone.egg-info/PKG-INFO
+../../build/play_phone/play_phone.egg-info/SOURCES.txt
+../../build/play_phone/play_phone.egg-info/dependency_links.txt
+../../build/play_phone/play_phone.egg-info/entry_points.txt
+../../build/play_phone/play_phone.egg-info/requires.txt
+../../build/play_phone/play_phone.egg-info/top_level.txt
+../../build/play_phone/play_phone.egg-info/zip-safe
+play_phone/__init__.py
+play_phone/zkhl_play_phone.py
+resource/play_phone
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

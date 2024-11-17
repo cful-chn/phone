@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/play_phone/play_phone.egg-info/PKG-INFO
+writing dependency_links to ../../build/play_phone/play_phone.egg-info/dependency_links.txt
+writing entry points to ../../build/play_phone/play_phone.egg-info/entry_points.txt
+writing requirements to ../../build/play_phone/play_phone.egg-info/requires.txt
+writing top-level names to ../../build/play_phone/play_phone.egg-info/top_level.txt
+reading manifest file '../../build/play_phone/play_phone.egg-info/SOURCES.txt'
+writing manifest file '../../build/play_phone/play_phone.egg-info/SOURCES.txt'
+running build
+running build_py
+copying play_phone/zkhl_play_phone.py -> /home/cful/Desktop/zkhl_play_phone/build/play_phone/build/lib/play_phone
+running install
+running install_lib
+copying /home/cful/Desktop/zkhl_play_phone/build/play_phone/build/lib/play_phone/zkhl_play_phone.py -> /home/cful/Desktop/zkhl_play_phone/install/play_phone/lib/python3.10/site-packages/play_phone
+byte-compiling /home/cful/Desktop/zkhl_play_phone/install/play_phone/lib/python3.10/site-packages/play_phone/zkhl_play_phone.py to zkhl_play_phone.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/cful/Desktop/zkhl_play_phone/install/play_phone/lib/python3.10/site-packages/play_phone-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/play_phone/play_phone.egg-info to /home/cful/Desktop/zkhl_play_phone/install/play_phone/lib/python3.10/site-packages/play_phone-0.0.0-py3.10.egg-info
+running install_scripts
+Installing zkhl_play_phone script to /home/cful/Desktop/zkhl_play_phone/install/play_phone/lib/play_phone
+writing list of installed files to '/home/cful/Desktop/zkhl_play_phone/build/play_phone/install.log'

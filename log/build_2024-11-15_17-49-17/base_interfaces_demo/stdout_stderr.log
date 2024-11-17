@@ -1,0 +1,189 @@
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] Built target ament_cmake_python_copy_base_interfaces_demo
+running egg_info
+writing base_interfaces_demo.egg-info/PKG-INFO
+writing dependency_links to base_interfaces_demo.egg-info/dependency_links.txt
+writing top-level names to base_interfaces_demo.egg-info/top_level.txt
+reading manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[  6%] Built target ament_cmake_python_build_base_interfaces_demo_egg
+[  6%] Built target base_interfaces_demo__cpp
+[  9%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/addstring__functions.c.o[0m
+[ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 22%] [32m[1mLinking C shared library libbase_interfaces_demo__rosidl_generator_c.so[0m
+[ 22%] Built target base_interfaces_demo__rosidl_generator_c
+[ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/srv/addstring__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/srv/detail/addstring__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/srv/detail/dds_fastrtps/addstring__type_support.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/srv/addstring__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/srv/detail/addstring__type_support_c.cpp.o[0m
+[ 51%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_c.so[0m
+[ 54%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_cpp.so[0m
+[ 58%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/addstring__type_support.c.o[0m
+[ 58%] Built target base_interfaces_demo__rosidl_typesupport_c
+[ 58%] Built target base_interfaces_demo__rosidl_typesupport_cpp
+[ 61%] [32m[1mLinking C shared library libbase_interfaces_demo__rosidl_typesupport_introspection_c.so[0m
+[ 61%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c
+[ 64%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so[0m
+[ 67%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 67%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp
+[ 67%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp
+[ 70%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so[0m
+[ 70%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c
+[ 70%] Built target base_interfaces_demo
+[ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 74%] Built target base_interfaces_demo__py
+[ 77%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/srv/_addstring_s.c.o[0m
+[ 80%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so[0m
+[ 80%] Built target base_interfaces_demo__rosidl_generator_py
+[ 83%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target base_interfaces_demo__rosidl_typesupport_c__pyext
+[100%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext
+[100%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext
+-- Install configuration: ""
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/ament_index/resource_index/rosidl_interfaces/base_interfaces_demo
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/addstring.h
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addstring__functions.h
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addstring__struct.h
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addstring__type_support.h
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addstring__functions.c
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.sh
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.dsv
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so
+-- Set runtime path of "/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addstring__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addstring__type_support.c
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addstring__rosidl_typesupport_introspection_c.h
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so
+-- Set runtime path of "/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addstring__struct.hpp
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addstring__traits.hpp
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addstring__builder.hpp
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/addstring.hpp
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addstring__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/dds_fastrtps
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addstring__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/addstring__type_support.cpp
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.sh
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.dsv
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo-0.0.0-py3.10.egg-info
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/srv
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/srv/_addstring_s.c
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/srv/_addstring.py
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/srv/__init__.py
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/__init__.py
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so
+Listing '/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo'...
+Compiling '/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/__init__.py'...
+Listing '/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/srv'...
+Compiling '/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/srv/__init__.py'...
+Compiling '/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/srv/_addstring.py'...
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so
+-- Set runtime path of "/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so" to ""
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/srv/Addstring.idl
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/srv/Addstring.srv
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/srv/Addstring_Request.msg
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/srv/Addstring_Response.msg
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv
+-- Up-to-date: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cppExport.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake
+-- Installing: /home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/share/base_interfaces_demo/package.xml

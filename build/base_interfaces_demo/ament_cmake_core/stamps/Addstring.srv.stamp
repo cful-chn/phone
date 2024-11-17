@@ -1,0 +1,3 @@
+string data   # 请求的字符串数据
+---
+string result # 响应的字符串数据

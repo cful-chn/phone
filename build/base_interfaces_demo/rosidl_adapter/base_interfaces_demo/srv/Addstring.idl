@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from base_interfaces_demo/srv/Addstring.srv
+// generated code does not contain a copyright notice
+
+
+module base_interfaces_demo {
+  module srv {
+    struct Addstring_Request {
+      @verbatim (language="comment", text=
+        "请求的字符串数据")
+      string data;
+    };
+    struct Addstring_Response {
+      @verbatim (language="comment", text=
+        "响应的字符串数据")
+      string result;
+    };
+  };
+};

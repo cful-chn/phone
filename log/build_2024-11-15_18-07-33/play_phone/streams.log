@@ -1,0 +1,24 @@
+[0.273s] Invoking command in '/home/cful/Desktop/zkhl_play_phone/src/play_phone': CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/cful/.mujoco/mujoco-3.2.4/bin PYTHONPATH=/home/cful/Desktop/zkhl_play_phone/build/play_phone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cful/Desktop/zkhl_play_phone/install/play_phone/lib/python3.10/site-packages:/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/play_phone build --build-base /home/cful/Desktop/zkhl_play_phone/build/play_phone/build install --record /home/cful/Desktop/zkhl_play_phone/build/play_phone/install.log --single-version-externally-managed install_data
+[0.377s] running egg_info
+[0.377s] writing ../../build/play_phone/play_phone.egg-info/PKG-INFO
+[0.377s] writing dependency_links to ../../build/play_phone/play_phone.egg-info/dependency_links.txt
+[0.377s] writing entry points to ../../build/play_phone/play_phone.egg-info/entry_points.txt
+[0.378s] writing requirements to ../../build/play_phone/play_phone.egg-info/requires.txt
+[0.378s] writing top-level names to ../../build/play_phone/play_phone.egg-info/top_level.txt
+[0.378s] reading manifest file '../../build/play_phone/play_phone.egg-info/SOURCES.txt'
+[0.379s] writing manifest file '../../build/play_phone/play_phone.egg-info/SOURCES.txt'
+[0.379s] running build
+[0.379s] running build_py
+[0.379s] copying play_phone/zkhl_play_phone.py -> /home/cful/Desktop/zkhl_play_phone/build/play_phone/build/lib/play_phone
+[0.379s] running install
+[0.379s] running install_lib
+[0.380s] copying /home/cful/Desktop/zkhl_play_phone/build/play_phone/build/lib/play_phone/zkhl_play_phone.py -> /home/cful/Desktop/zkhl_play_phone/install/play_phone/lib/python3.10/site-packages/play_phone
+[0.380s] byte-compiling /home/cful/Desktop/zkhl_play_phone/install/play_phone/lib/python3.10/site-packages/play_phone/zkhl_play_phone.py to zkhl_play_phone.cpython-310.pyc
+[0.380s] running install_data
+[0.380s] running install_egg_info
+[0.381s] removing '/home/cful/Desktop/zkhl_play_phone/install/play_phone/lib/python3.10/site-packages/play_phone-0.0.0-py3.10.egg-info' (and everything under it)
+[0.381s] Copying ../../build/play_phone/play_phone.egg-info to /home/cful/Desktop/zkhl_play_phone/install/play_phone/lib/python3.10/site-packages/play_phone-0.0.0-py3.10.egg-info
+[0.382s] running install_scripts
+[0.391s] Installing zkhl_play_phone script to /home/cful/Desktop/zkhl_play_phone/install/play_phone/lib/play_phone
+[0.391s] writing list of installed files to '/home/cful/Desktop/zkhl_play_phone/build/play_phone/install.log'
+[0.401s] Invoked command in '/home/cful/Desktop/zkhl_play_phone/src/play_phone' returned '0': CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/cful/.mujoco/mujoco-3.2.4/bin PYTHONPATH=/home/cful/Desktop/zkhl_play_phone/build/play_phone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cful/Desktop/zkhl_play_phone/install/play_phone/lib/python3.10/site-packages:/home/cful/Desktop/zkhl_play_phone/install/base_interfaces_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/play_phone build --build-base /home/cful/Desktop/zkhl_play_phone/build/play_phone/build install --record /home/cful/Desktop/zkhl_play_phone/build/play_phone/install.log --single-version-externally-managed install_data

@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+    from rosidl_generator_c import generate_c
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+    from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+    from rosidl_parser.parser import parse_idl_file
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'
+gmake[2]: *** [CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/build.make:87：rosidl_generator_c/base_interfaces_demo/srv/addstring.h] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:212：CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+    from rosidl_generator_cpp import generate_cpp
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+    from rosidl_cmake import generate_files
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+    from rosidl_parser.parser import parse_idl_file
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'
+gmake[2]: *** [CMakeFiles/base_interfaces_demo__cpp.dir/build.make:91：rosidl_generator_cpp/base_interfaces_demo/srv/addstring.hpp] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:317：CMakeFiles/base_interfaces_demo__cpp.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

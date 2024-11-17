@@ -1,0 +1,3 @@
+[console_scripts]
+zkhl_play_phone = play_phone.zkhl_play_phone:main
+

@@ -1,0 +1,57 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /home/cful/miniconda3/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /home/cful/miniconda3/include/python3.10
+-- Using PYTHON_LIBRARIES: /home/cful/miniconda3/lib/libpython3.10.so
+-- Using numpy include directory: /home/cful/miniconda3/lib/python3.10/site-packages/numpy/_core/include
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cful/Desktop/zkhl_play_phone/build/base_interfaces_demo
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] Built target ament_cmake_python_copy_base_interfaces_demo
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c", line 8, in <module>
+    from rosidl_generator_c import generate_c
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_c/__init__.py", line 15, in <module>
+    from rosidl_cmake import convert_camel_case_to_lower_case_underscore
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+    from rosidl_parser.parser import parse_idl_file
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'
+gmake[2]: *** [CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/build.make:87：rosidl_generator_c/base_interfaces_demo/srv/addstring.h] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:212：CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+Traceback (most recent call last):
+  File "/opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp", line 8, in <module>
+    from rosidl_generator_cpp import generate_cpp
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py", line 17, in <module>
+    from rosidl_cmake import generate_files
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_cmake/__init__.py", line 24, in <module>
+    from rosidl_parser.parser import parse_idl_file
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_parser/parser.py", line 20, in <module>
+    from lark import Lark
+ModuleNotFoundError: No module named 'lark'
+gmake[2]: *** [CMakeFiles/base_interfaces_demo__cpp.dir/build.make:91：rosidl_generator_cpp/base_interfaces_demo/srv/addstring.hpp] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:317：CMakeFiles/base_interfaces_demo__cpp.dir/all] 错误 2
+running egg_info
+creating base_interfaces_demo.egg-info
+writing base_interfaces_demo.egg-info/PKG-INFO
+writing dependency_links to base_interfaces_demo.egg-info/dependency_links.txt
+writing top-level names to base_interfaces_demo.egg-info/top_level.txt
+writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+reading manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[  6%] Built target ament_cmake_python_build_base_interfaces_demo_egg
+gmake: *** [Makefile:146：all] 错误 2
